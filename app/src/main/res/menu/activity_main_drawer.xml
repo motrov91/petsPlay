@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Mi perfil" />
+        <item
+            android:id="@+id/myPets"
+            android:icon="@drawable/ic_mypets"
+            android:title="Mis Mascotas" />
+        <item
+            android:id="@+id/care"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cuiados" />
+        <item
+            android:id="@+id/discounts"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cupones de descuentos" />
+        <item
+            android:id="@+id/products"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Productos para mascotas" />
+        <item
+            android:id="@+id/wash"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Baño y peluqueria" />
+
+    </group>
+
+    <item android:title="@string/sesion_drawer">
+        <menu>
+            <item
+                android:id="@+id/configuration"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/Configuration_drawer" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/cerrar_sesi_n_drawer" />
+        </menu>
+    </item>
+
+</menu>

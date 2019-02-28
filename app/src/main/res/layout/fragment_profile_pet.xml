@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.ProfilePet">
+
+    <ImageView
+        android:id="@+id/photoPet"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/circle_image"/>
+    <TextView
+        android:id="@+id/NamePetProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/TagAgeProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Edad:"/>
+            <TextView
+                android:id="@+id/AgeProfilePet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="ed"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/TagAgeProfile"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/AgeProfilePet"
+                android:layout_below="@id/TagAgeProfile"
+                android:text="años"
+                android:layout_marginLeft="5dp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/TagNameOwnerProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dueño(s):"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/NameOwnerProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dueño de la mascota"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/TagkindOfPetProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo de mascota"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/kindOfPetProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Perro"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/TagbreedPetProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Raza de mascota"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/breedPetProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Raza de tu mascota"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/TaglastControlProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ultimo control:"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/lastControlProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="20/12/17"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnMedicalRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Historia Clinica"
+            android:layout_above="@id/reminder"/>
+        <Button
+            android:id="@+id/reminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

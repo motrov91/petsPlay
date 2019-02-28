@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PetsPlay</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Configuration_drawer">Configuración</string>
+    <string name="sesion_drawer">Sesión</string>
+    <string name="cerrar_sesi_n_drawer">Cerrar Sesión</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_profile">Telefono</string>
+    <string name="email_profile">Email</string>
+    <string name="fullname_profile">Apellidos</string>
+    <string name="name_profile">Nombre</string>
+    <string name="direcci_n_profile">Dirección</string>
+    <string name="namePet_item_pet">Nombre Mascota</string>
+    <string name="createPet_myPets">Crear Mascota</string>
+    <string name="addBreed_CreateNewPet">Ingrese la raza (Pomerania, Pincher, Criollo)</string>
+    <string name="Age_CreateNewPet">Edad de tu mascota</string>
+    <string name="kinfOfPet">Tipo de mascota (perro, gato, hamster)</string>
+    <string name="kindOfPetCreate">Ingrese el tipo de mascota (Perro, Gato, Hamster)</string>
+    <string name="medical_consultation">10/feb/2018</string>
+    <string name="prescription_record_medic">Receta medica</string>
+    <string name="consultation_tag_record_consultation">Motivo de la consulta</string>
+</resources>
